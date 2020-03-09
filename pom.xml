@@ -18,4 +18,17 @@
   <build>
     <finalName>SimpleTomcatWebApp</finalName>
   </build>
+  
+         <distributionManagement>
+            <repository>
+                 <id>deployment</id>
+                 <name>tomcatwar_release</name>
+                 <url>http://localhost:8081/repository/tomcatwar_release/</url>
+            </repository>
+            <snapshotRepository>
+                 <id>deployment</id>
+                 <name>tomcatwar_snapshot</name>
+                 <url>http://localhost:8081/repository/tomcatwar_snapshot/</url>
+            </snapshotRepository>         
+         </distributionManagement> 
 </project>
